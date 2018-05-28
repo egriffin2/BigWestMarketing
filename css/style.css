@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+p {
+  font-family: 'Avenir next', regular;
+	padding-left: 50;
+	padding-right: 50;
+  text-align: center;
+  font-size: 150%;
+  color: #001E80;
+  letter-spacing: 10%;
+}
+
+nav.page-navigation {
+    font-family: 'Snell Roundhand', black;
+    width: 150px;
+	height: 150px;
+    background-color: #FFFFFF;
+	color: #001E80;
+    position:fixed;
+    top:10%;
+    left:5;
+	text-align: center;
+	font-size: 30px;
+}
+
+/* START PARALLAX /*/
+
+.parallax-inner {
+  padding-top: 5%;
+  padding-bottom: 5%;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+.parallaxLogo {
+  background: url("designPrompt/carpet.jpg") repeat fixed 100% ;
+  background-size: cover;
+	padding-top: 10%;
+	padding-bottom: 30%;
+}
+
+.paralaxText {
+	background: "white";
+}
+
+.parallaxImg {
+ background: "white";
+}
+
+
+.parallaxUpholstery {
+  background: url("designPrompt/upholstery.jpg") repeat fixed 100%;
+  background-size: cover;
+	padding-top: 50%;
+	padding-bttom: 50%;
+}
+/* END PARALLAX /*/
